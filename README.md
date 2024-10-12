@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React
 Friendly Restaurant Website
 This is a web application for the Friendly restaurant that displays a menu, allows users to add items to their order, and shows an order list. The project is built using React for the frontend and utilizes an external API for fetching menu items.
@@ -27,3 +28,6 @@ Remove items from the order.
 Simple carousel to showcase food images.
 React Router for navigation between different pages.
 Project Setup
+=======
+
+>>>>>>> d61256204e33dd89c2e44857f8486ce8c39cdde3
