@@ -1,0 +1,61 @@
+/* General layout for each section */
+.homepage {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #2b2b2b;  /* Same dark background as the navbar */
+    color: rgb(128, 100, 100);
+}
+
+.section {
+    margin-bottom: 50px;
+}
+
+.section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    color: #a58686;
+}
+
+.section p {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 20px;
+}
+
+/* Dots for pagination */
+.dots {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.dot.active {
+    background-color: white;
+}
+
+/* Contact button styling */
+.contact-btn {
+    background-color: #f5a623;
+    border: none;
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #ffcc33;
+}

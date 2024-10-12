@@ -1,0 +1,14 @@
+/* Carousel container */
+.carousel-container {
+    display: flex;
+    justify-content: center; /* Center the carousel horizontally */
+    margin-top: 100px; /* Push the carousel down below the navbar */
+    padding: 20px;
+    width: 100%;
+}
+
+.carousel {
+    width: 80%; /* You can adjust the width of the carousel */
+    max-width: 800px; /* Set a maximum width if needed */
+    height: auto; /* Keep the aspect ratio of the image */
+}

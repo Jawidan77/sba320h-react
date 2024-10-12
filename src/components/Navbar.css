@@ -1,0 +1,48 @@
+/* Navbar container */
+/* Navbar container */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: #333;
+    padding: 15px 20px; /* Add some padding on the sides */
+    display: flex;
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Navbar logo */
+.navbar-logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 20px; /* Adjust space from the left edge */
+}
+
+/* Navbar links container */
+.navbar-links {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar links styling */
+.navbar-links li {
+    margin-left: 30px;
+}
+
+.navbar-links li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+    background-color: #bd5d5d; /* Hover effect */
+}
